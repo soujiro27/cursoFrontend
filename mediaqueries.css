@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  header {
+    height: 250px;
+  }
+  header h1 {
+    text-shadow: 3px 3px 3px #afafaf;
+  }
+  header img {
+    margin: 1em 0;
+    width: 130px;
+  }
+  section.esperar p {
+    font-size: 16px;
+  }
+  section.temario li {
+    font-size: 16px;
+  }
+  section.temario ul {
+    width: 33%;
+    margin: 0.3em 0.9em 0.3em 0.7em;
+    list-style: disc;
+  }
+  section.temario figure {
+    width: 25%;
+    display: inline-block;
+  }
+  section.temario figure img {
+    width: 100%;
+  }
+  img.imagenes {
+    height: 280px;
+  }
+  section.informes p {
+    font-size: 16px;
+  }
+  section.formulario button {
+    width: 15%;
+    margin: 1em 42.5%;
+  }
+  section.formulario input {
+    width: 30%;
+    display: block;
+    margin: 1em 35%;
+  }
+  section.formulario p.inscripcion {
+    display: block;
+  }
+  section.cursosAnteriores figure {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin: 0.7em 0.7em;
+  }
+  section.cursosAnteriores img {
+    width: 100%;
+  }
+}

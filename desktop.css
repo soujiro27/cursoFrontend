@@ -1,0 +1,30 @@
+@media screen and (min-width: 1024px) {
+  section.esperar,
+  section.informes,
+  section.formulario {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+  }
+  figure.esperarImagen,
+  figure.informesImagen,
+  figure.formularioImagen {
+    width: 38%;
+    display: inline-block;
+  }
+  figure.esperarImagen img,
+  figure.informesImagen img,
+  figure.formularioImagen img {
+    height: 266px;
+  }
+  section.temario figure {
+    width: 250px;
+  }
+  figure.formularioImagen {
+    float: right;
+  }
+  figure.cursosImagen {
+    display: none;
+  }
+}
