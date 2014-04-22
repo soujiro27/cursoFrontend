@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="estilo.css">
 	<link rel="stylesheet" href="mediaqueries.css">
 	<link rel="stylesheet" href="desktop.css">
+	<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="codigo.js"></script>
 </head>
 <body>
 	<header>
@@ -73,8 +75,8 @@
 	<section class="formulario">
 		<h2>¿Quieres Inscribirte?</h2>
 		<div>
-		<input type="text" placeholder="Nombre Completo">
-		<input type="email" placeholder="Email">
+		<input type="text" placeholder="Nombre Completo" id="nombre" required>
+		<input type="email" placeholder="Email" id="email">
 		<button>Inscribete</button>
 		</div>
 		<p class="inscripcion"><strong>*</strong> Al inscribirte te sera enviando un correo con lo datos para el pago del curso </p>
@@ -93,5 +95,6 @@
 	<p>Powered by WebInnovation</p>
 	<p>Copyright &copy Derechos Reservados</p>
 </footer>
+
 </body>
 </html>

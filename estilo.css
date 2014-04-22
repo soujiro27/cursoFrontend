@@ -66,6 +66,7 @@ section.formulario {
   padding: 0.5em;
 }
 section.formulario input {
+  color: #afafaf;
   margin: 0.7em 0;
   border: none;
   border-radius: 0.5em;
