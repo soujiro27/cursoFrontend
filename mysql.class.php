@@ -5,8 +5,8 @@ private $conexion;
 private $total_consultas;  
 public function open(){  
 if(!isset($this->conexion)){  
-	$this->conexion = (mysql_connect('localhost','1661926_curso','270183jc')) or die(mysql_error());  
-	mysql_select_db('1661926_curso',$this->conexion) or die(mysql_error());  
+	$this->conexion = (mysql_connect('localhost','root','270183jc')) or die(mysql_error());  
+	mysql_select_db('curso',$this->conexion) or die(mysql_error());  
 }  
 }  
 

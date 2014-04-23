@@ -15,7 +15,9 @@ function inicio()
 				nombre:$nombre,
 				email:$email,
 			},function(data){
-				
+				$("p.sucess").fadeIn('slow');
+				$("#nombre").val("");
+				$("#email").val("");
 			})
 		}
 	});
